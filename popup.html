@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="bootstrap-4.6.1-dist/css/bootstrap.min.css">
+  <script type="text/javascript" src="bootstrap-4.6.1-dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="bootstrap-4.6.1-dist/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="bootstrap-additionals/popper.min.js"></script>
+  <script type="text/javascript" src="bootstrap-additionals/jquery.slim.min.js"></script>
+  <script type="text/css" src="fixed-width.css"></script>
+  <script src="jquery.min.js"></script>
+
+
+          <style type="text/css">
+          .cacheItem, .cacheItemFilter {
+              display: none;
+          }
+
+          html, body {
+            font-family: "Arial";
+            width: 280px;
+          }
+
+
+          ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+          }
+
+          ul li {
+            background: transparent;
+            margin: 10px;
+            border: 0.5px solid grey;
+            padding: 10px;
+            width: 260px;
+          }
+
+
+          input {
+            border: 0;
+            outline: 0;
+            background: transparent;
+            border-bottom: 1px solid black;
+            margin: 10px;
+            padding: 10px;
+            width: 260px;
+          }
+
+
+          tag-red {
+            background: #b71a3b;
+            border-style: 2px solid #b71a3b;
+            border-radius: 5px;
+            padding: 2px;
+            font-size: 11px;
+            color: white;
+          }
+
+          tag-blue {
+            background: #1b96f3;
+            border-style: 2px solid #1b96f3;
+            border-radius: 5px;
+            padding: 2px;
+            font-size: 11px;
+            color: white;
+          }
+
+          tag-teal {
+            background: teal;
+            border-style: 2px solid #1b96f3;
+            border-radius: 5px;
+            padding: 2px;
+            font-size: 11px;
+            color: white;
+          }
+
+          tag-orange {
+            background: orange;
+            border-style: 2px solid orange;
+            border-radius: 5px;
+            padding: 2px;
+            font-size: 11px;
+            color: white;
+          }
+
+          tag-green {
+            background: green;
+            border-style: 2px solid green;
+            border-radius: 5px;
+            padding: 2px;
+            font-size: 11px;
+            color: white;
+          }
+
+          tag-sandybrown {
+            background: sandybrown;
+            border-style: 2px solid sandybrown;
+            border-radius: 5px;
+            padding: 2px;
+            font-size: 11px;
+            color: white;
+          }
+
+
+          tag-indigo {
+            background: indigo;
+            border-style: 2px solid indigo;
+            border-radius: 5px;
+            padding: 2px;
+            font-size: 11px;
+            color: white;
+          }
+
+          tag-moccasin {
+            background: moccasin;
+            border-style: 2px solid green;
+            border-radius: 5px;
+            padding: 2px;
+            font-size: 11px;
+            color: white;
+          }
+
+          tag-darksalmon {
+            background: darksalmon;
+            border-style: 2px solid green;
+            border-radius: 5px;
+            padding: 2px;
+            font-size: 11px;
+            color: white;
+          }
+
+          tag-slateblue {
+            background: slateblue;
+            border-style: 2px solid green;
+            border-radius: 5px;
+            padding: 2px;
+            font-size: 11px;
+            color: white;
+          }
+
+          tag-tomato {
+            background: tomato;
+            border-style: 2px solid green;
+            border-radius: 5px;
+            padding: 2px;
+            font-size: 11px;
+            color: white;
+          }
+
+          tag-chocolate {
+            background: chocolate;
+            border-style: 2px solid green;
+            border-radius: 5px;
+            padding: 2px;
+            font-size: 11px;
+            color: white;
+          }
+
+
+          tag-grey {
+            background: grey;
+            border-style: 2px solid grey;
+            border-radius: 5px;
+            padding: 2px;
+            font-size: 11px;
+            color: white;
+          }
+
+          a:link {
+            color: black;
+            text-decoration: none;
+          }
+
+          /* visited link */
+          a:visited {
+            color: black;
+            text-decoration: none;
+          }
+
+          /* mouse over link */
+          a:hover {
+            color: black;
+            text-decoration: none;
+          }
+
+          /* selected link */
+          a:active {
+            color: black;
+            text-decoration: none;
+          }
+
+          p {
+            color: gray;
+            font-size: x-small;
+          }
+          </style>
+          <script type="text/javascript">
+
+          </script>
+      </head>
+
+      <body>
+        <input id="filter" class="txtfilter" type="text" name="txtSearch" placeholder="Search...">
+
+        <ul class="filter">
+            <!--A-->
+            <a href="http://www.hgw-online.net/abbildungsverzeichnis/" target="_blank">
+              <li class="item">Abbildungsverzeichnis der europäischen Kaiser- und Königsurkunden <tag-grey>German</tag-grey> <p>A project by LMU (Munich, Germany) for indexing documents of the Early and High Middle Ages of emperors and kings. </p>  </li>
+            </a>
+
+            <a href="https://www.abbreviationes.net/" target="_blank">
+              <li class="item"> Abbreviationes Online <tag-grey>English</tag-grey> <p></p></li>
+            </a>
+
+            <a href="http://www.pax-westphalica.de/index.html" target="_blank">
+              <li class="item"> Acta Pacis Westphalicae <tag-grey>German</tag-grey> <p>A publication series regarding the peace of Westphalia 1648, including document editions, research literature and reviews by the University of Bonn, Germany.</p></li>
+            </a>
+
+            <a href="https://aktenkunde.hypotheses.org/" target="_blank">
+              <li class="item"> Aktenkunde Hypotheses <tag-grey>German</tag-grey> <br><p>A blog for the research of documents of the early modern period. It contains information about basic knowledge and literature in this field.</p></li>
+            </a>
+
+            <a href="https://analectacartusiana.monsite-orange.fr/" target="_blank">
+              <li class="item"> Analecta Cartusiana II <tag-grey>French</tag-grey> <p> A website for documents and literature of / about the Carthusian Order. </p></li>
+            </a>
+
+            <a href="https://arachne.dainst.org/" target="_blank">
+              <li class="item"> Arachne <tag-grey>English</tag-grey> <tag-grey>German</tag-grey> <p> A database of objects from the German Archeological Institute (Deutsches Archäologisches Institut, DAI) with reference to historical sources, research literature and projects about the ancient world.</p></li>
+            </a>
+
+            <a href="www.ag-sdd.de" target="_blank">
+              <li class="item"> Arbeitsgemeinschaft Sammlung Deutscher Drucke (AG SDD) <tag-grey>German</tag-grey> <p></p></li>
+            </a>
+
+            <a href="https://www.archive.org" target="_blank">
+              <li class="item"> archive.org <tag-grey>English</tag-grey> <p> An online library for historical sources, editions and literature. The vast collection not only contains written documents but also photographies and audio.</p></li>
+            </a>
+
+            <a href="https://www.archivioapostolicovaticano.va/content/aav/it.html" target="_blank">
+              <li class="item"> Archivio Apostolico Vaticano <tag-grey>Italian</tag-grey></li>
+            </a>
+
+            <a href="https://www.archivportal-d.de/?lang=de" target="_blank">
+              <li class="item"> Archivportal Deutschland <tag-grey>German</tag-grey> <p> A search engine for archival facilities in Germany and digitized archival materials mainly from modern history.</p></li>
+            </a>
+
+
+            <a href="https://www.arlima.net/index.html" target="_blank">
+              <li class="item">ARLIMA - Les Archives de littérature du Moyen Âge <tag-grey>French</tag-grey> <p>A website mainly for indexing French publications regarding the Middle Ages. </p></li>
+            </a>
+
+
+
+            <!--B-->
+            <a href="https://www.hdbg.eu/gemeinden/" target="_blank">
+              <li class="item"> Bayerns Gemeinden <tag-grey>German</tag-grey><p>A website dedicated to the regional history of Bavaria with a special focus on heraldics. </p></li>
+            </a>
+
+            <a href="https://www.bavarikon.de/" target="_blank">
+              <li class="item"> Bavarikon <tag-grey>German</tag-grey><p>A collection of photographed objects of Bavaria. </p></li>
+            </a>
+
+            <a href="https://beinecke.library.yale.edu/" target="_blank">
+              <li class="item"> Beinecke Rare Book & Manuscript Library <tag-grey>English</tag-grey> <p></p></li>
+            </a>
+
+            <a href="http://www.memoryofpaper.eu/BernsteinPortal/appl_start.disp" target="_blank">
+              <li class="item"> Bernstein - The Memory of Paper <tag-grey>German</tag-grey><p>A website for paleography, codicology, and watermarks. It provides several searchable catalogues as well as software for working in these fields. </p></li>
+            </a>
+
+            <a href="https://mdc.csuc.cat/digital/collection/manuscritBC/search" target="_blank">
+              <li class="item"> Biblioteca de Catalunya Manuscrits <tag-grey>Catalan</tag-grey> <p></p></li>
+            </a>
+
+            <a href="https://digiliblt.uniupo.it/" target="_blank">
+              <li class="item"> Biblioteca digitale di testi latini tardoantichi <tag-grey>Italian</tag-grey><p></p> </li>
+            </a>
+
+            <a href="http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Inicio/index.html" target="_blank">
+              <li class="item"> Biblioteca Digital Hispánica <tag-grey>Spanish</tag-grey> <p></p></li>
+            </a>
+
+
+
+            <a href="http://www.bibliotecaitaliana.it/" target="_blank">
+              <li class="item"> Biblioteca Italiana <tag-grey>Italian</tag-grey><p>A digital library dedicated to Italian historical sources of the Middle Ages up to the 20th century. A special focus is on printed books including incunabula among newer prints.</p> </li>
+            </a>
+
+            <a href="https://www.degruyter.com/database/btl/html" target="_blank">
+              <li class="item"> Bibliotheca Teubneriana Latina Online (BTL Online) <tag-grey>English</tag-grey><p>The online version of the Bibliotheca Teubneriana edition series, where all publications of Latin text can be found and searched.</p> </li>
+            </a>
+
+            <a href="http://www.unifr.ch/bkv/index.htm" target="_blank">
+              <li class="item"> Bibliothek der Kirchenväter (BKV) <tag-grey>English</tag-grey> <tag-grey>German</tag-grey> <tag-grey>French</tag-grey><p>A website providing the volumes of Bibliothek der Kirchenväter (official English translation: Library of the Church Fathers) digitally with German, English and French translations.</p> </li>
+              </a>
+
+            <a href="https://bvmm.irht.cnrs.fr/" target="_blank">
+              <li class="item"> Bibliothèque virtuelle des manuscrits médiévaux (BVMM) <tag-grey>French</tag-grey><p>An online library for digitized historical documents from the Middle Ages to the 16th century.</p></li>
+            </a>
+
+            <a href="https://www.bbkl.de/index.php/frontend/lexicon" target="_blank">
+              <li class="item"> Biographisch-Bibliographisches Kirchenlexikon (BBKL) <tag-grey>German</tag-grey><p> A lexicon for church related biography as well as bibliography with additional new entries.</p> </li>
+            </a>
+
+            <a href="https://stel.ub.edu/biteca/html/ca/cover.html" target="_blank">
+              <li class="item"> BITECA <tag-grey>Catalan</tag-grey><p> A website dedicated to codicological and paleographical research of Catalan manuscripts including information about watermarks.</p> </li>
+            </a>
+
+            <a href="https://archivesetmanuscrits.bnf.fr/pageCollections.html?col=1" target="_blank">
+              <li class="item"> BnF Archives et manuscrits <tag-grey>French</tag-grey> <p></p></li>
+            </a>
+
+
+            <a href="http://clt.brepolis.net/llta/Default.aspx" target="_blank">
+              <li class="item"> Brepolis <br> <tag-grey>journal</tag-grey> </li>
+            </a>
+
+            <a href="https://www.bl.uk/manuscripts/" target="_blank">
+              <li class="item"> British Library Digitized Manuscripts <tag-grey>English</tag-grey> <p></p></li>
+            </a>
+
+            <a href="https://www2i.misha.fr/flora/servlet/LoginServlet" target="_blank">
+              <li class="item"> Bulletin Analytique d'Histoire Romaine <tag-grey>English</tag-grey> <tag-grey>French</tag-grey><p>A website dedicated to the publications of the Bulletin Analytique d'Histoire Romaine.</p></li>
+            </a>
+
+
+
+            <a href="http://briquet-online.at/" target="_blank">
+              <li class="item"> Briquet Online (BR)  <tag-grey>French</tag-grey><p>A collection of watermarks for codicological or paleographical research.</p></li>
+            </a>
+
+            <a href="http://www.byzantium1200.com/" target="_blank">
+              <li class="item"> Byzantium 1200 <tag-grey>English</tag-grey><p>A homepage dedicated to a digital humanities project under the same name as the website. The project's aim is to reconstruct monuments of 1200 AD of today's Istanbul.</p></li>
+            </a>
+
+            <!--C-->
+
+            <a href="http://www.calames.abes.fr/pub/" target="_blank">
+              <li class="item"> Calames <tag-grey>French</tag-grey><p>A simple search engine for historical documents related to libraries of French universities and research institutes.</p></li>
+            </a>
+
+            <a href="https://cudl.lib.cam.ac.uk/" target="_blank">
+              <li class="item"> Cambridge Digital Library <tag-grey>English</tag-grey> <p></p></li>
+            </a>
+
+            <a href="http://cantusindex.org/" target="_blank">
+              <li class="item"> Cantus Index - Catalogue of Chant Texts and Melodies <tag-grey>English</tag-grey> <p>A meta database for chant texts and melodies of the Middle Ages. It subsumes 14 regional online projects in total.</p></li>
+            </a>
+
+            <a href="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_I/Musikwissenschaft/cantus/index.htm" target="_blank">
+              <li class="item"> Cantus Planus <tag-grey>English</tag-grey><p>A database of Gregorian Chant texts of the University of Regensburg. The website came to existence back in 2001 and the project is now integrated in the meta project 'Cantus Index'. </p></li>
+            </a>
+
+            <a href="https://www.bl.uk/catalogues/illuminatedmanuscripts/welcome.htm?_ga=2.178700836.1040538317.1535336311-1103022952.1535336311" target="_blank">
+              <li class="item"> Catalogue of Illuminated Manuscripts<tag-grey>English</tag-grey> <p></p></li>
+            </a>
+
+            <a href="http://www.catholic-hierarchy.org/" target="_blank">
+              <li class="item"> Catholic Hierarchy <tag-grey>English</tag-grey> <p>A website dedicated to Catholic bishops and dioceses of the past and present.</p></li>
+            </a>
+
+            <a href="https://www.adfontes.uzh.ch/en/ressourcen/abkuerzungen/cappelli-online" target="_blank">
+              <li class="item"> Cappelli-Online / Ad fontes <tag-grey>English</tag-grey><p>A digital version of the lexicon "Lexicon abbreviaturarum. Wörterbuch lateinischer und italienscher Abkürzungen" by Adriano Cappelli. It gives many examples of palographical text abbreviations in it's original form with its decoded meaning. </p></li>
+            </a>
+
+            <a href="https://www.uni-muenster.de/Fruehmittelalter/Projekte/Cluny/CCE/" target="_blank">
+              <li class="item"> Cartae cluniacenses electronicae (CCE) <tag-grey>German</tag-grey> <p>The website provides a gradually grown database of data that can be found in the charters of the abbey Cluny between 802 and 1300. Beside the database one can find the digitized version of the editions of the Charters of the abbey according to volume and page.</p> </li>
+            </a>
+
+
+
+            <a href="http://cenobium.isti.cnr.it/" target="_blank">
+              <li class="item"> Cenobium <tag-grey>English</tag-grey><p>The project's aim is to digitally represent romanesque cloister capitals with a focus on the Mediterranean area. According to the website, "Cenobium" stands for "Cultural Electronic Network Online Binding of Interoperably Usable Multimedia". </p></li>
+            </a>
+
+            <a href="http://storing.ingv.it/cfti/cfti5/" target="_blank">
+              <li class="item"> CFTI5Med Earth quake database Italy <tag-grey>English</tag-grey><p> A database of earthquakes based on historical sources in combination with Web-GIS technology for Italy.</p></li>
+            </a>
+
+
+            <a href="https://www.cistopedia.org/" target="_blank">
+              <li class="item"> Cistopedia, Encyclopedia Cisterciensis <tag-grey>English</tag-grey><p>A project that collects anything related to the Cistercians.</p></li>
+            </a>
+
+
+
+            <a href="http://www.ccel.org/fathers.html" target="_blank">
+              <li class="item"> Christian Classics Ethereal Library / Early Church Fathers <tag-grey>English</tag-grey><p>This webpage hosts the digital version of the "Early Church Fathers" edition series.</p></li>
+            </a>
+
+            <a href="http://classicsresources.info/" target="_blank">
+              <li class="item"> Classics Resources <tag-grey>English</tag-grey><p>A list of webpages regarding information about historical texts, epigraphy, numismatics, papyrology, maps, architectural objects, art, archeology, databases and further aids and references. The webpage seems to be regularly updated.  </p></li>
+            </a>
+
+            <a href="http://www.claustro.com/" target="_blank">
+              <li class="item"> Claustro <tag-grey>Spanish</tag-grey><p>A Spanish website dedicated to Romanesque iconography, especially in architectural objects.</p></li>
+            </a>
+
+            <a href="http://www.clio-online.de/" target="_blank">
+              <li class="item"> Clio-Online <tag-grey>German</tag-grey><p>Clio-online is intended as a communication instance for historians regarding conferences and information in general.</p></li>
+            </a>
+
+            <a href="https://www.comphistsem.org/home.html" target="_blank">
+              <li class="item"> Computational Historical Semantics <tag-grey>English</tag-grey><p>The former version of the current "LTA Latin Text Archive". The website helps to research Latin Texts by providing help in word frequency analytics as well as lexical analytics.  </p></li>
+            </a>
+
+            <a href="http://www.coinarchives.com/a/" target="_blank">
+              <li class="item"> Coin Archives <tag-grey>English</tag-grey><p>A database for numismatic research. The information gathered on the webpage was retrieved from coin auctions. Free and pro versions are both available.</p></li>
+            </a>
+
+
+            <a href="http://www.mlat.uzh.ch/" target="_blank">
+              <li class="item"> Corpus Corporum <tag-grey>English</tag-grey><p>Meta database for Latin texts and the process of analyzing texts by using xml files.</p></li>
+            </a>
+
+            <a href="http://cil.bbaw.de/" target="_blank">
+              <li class="item"> Corpus Inscriptionum Latinarum (CIL) <tag-grey>German</tag-grey><p>A homepage dedicated to the project "Corpus Inscriptionum Latinarum", which is based on the work of Theodor Mommsen from the 19th century in order to systematically collect and publish epigraphical sources in form of editions. The website further has an integrated database search function. </p></li>
+            </a>
+
+            <a href="https://celt.ucc.ie/captured.html" target="_blank">
+              <li class="item"> Corpus of Electronic Texts (CELT) <tag-grey>English</tag-grey><p>A website dedicated to Irish literature. The link leads directly to Hiberno-English, French, Irish, Latin and translated texts.</p></li>
+            </a>
+
+            <a href="http://www.forumromanum.org/literature/" target="_blank">
+              <li class="item"> Corpus Scriptorum Latinarum (CSL) <tag-grey>English</tag-grey> <p>This webpage sees itself as a "digital library of Latin literature". The works that are provided on this webpage span frome epigraphical sources up to sources from the 18th century.</p></li>
+            </a>
+
+            <a href="http://www.corpusthomisticum.org/" target="_blank">
+              <li class="item"> Corpus Thomisticum <tag-grey>Latin</tag-grey><p>The website is dedicated to Thomas Aquinas and his works. It provides digital versions of his works as well as the "Thomas-Lexikon" by Ludwig Schütz among other research instruments and functionalities.
+         </p></li>
+            </a>
+
+            <a href="https://www.coptica.ch/" target="_blank">
+              <li class="item"> COPTICA - Textes coptes et documents <tag-grey>French</tag-grey><p>A French website dedicated to linguistic aspects of coptology</p></li>
+            </a>
+
+            <a href="http://www.currentepigraphy.org/" target="_blank">
+              <li class="item"> Current Epigraphy <tag-grey>English</tag-grey><p>This blog provides information about news, research and publications about epigraphy. The blog goes back to 2007 and is currently actively maintained. </p> </li>
+            </a>
+
+            <!--D-->
+
+
+            <a href="https://geobrowser.de.dariah.eu/" target="_blank">
+              <li class="item"> DARIAH-DE Geo-BrowserGeo-Browser <tag-grey>English</tag-grey><p>This project helps researchers to visualize geographical data in combination with its time of occurrence on a map. It can be used by filling in the data or uploading it in a specific format, so that no other special knowledge is needed.</p> </li>
+            </a>
+
+            <a href="https://www.rekihaku.ac.jp/education_research/gallery/database/index.html" target="_blank">
+              <li class="item"> データベースれきはく[Database Rekihaku] <tag-grey>Japanese</tag-grey> <p>This site is powered by the National Museum of Japanese History and aims at the collection of data related to Japanese history and culture. Depending on the content registration might be required.</p></li>
+            </a>
+
+            <a href="https://geschichte.digitale-sammlungen.de//decretum-gratiani/online/angebot" target="_blank">
+              <li class="item"> Degretum Gratiani <tag-grey>German</tag-grey><p>This is a digitized version of the "Degretum Gratiani" (Corpus Iuris Canonici, part 1).</p></li>
+            </a>
+
+            <a href="https://www.deutsche-biographie.de/" target="_blank">
+              <li class="item"> Deutsche Biographie <tag-grey>German</tag-grey><p>This database collects entries of the "Neue Deutsche Biographie" and the "Alte Deutsche Biographie" lexica in German language. The lexica is valuable for research on the life and interpersonal relations of historical figures.</p></li>
+            </a>
+
+
+
+            <a href="http://www.inschriften.net/" target="_blank">
+              <li class="item"> Deutsche Inschriften Online <tag-grey>German</tag-grey><p>This blog reports epigraphical news and publications of the German speaking world. It is especially dedicated to the Middle Ages and the Early Modern period.</p></li>
+            </a>
+
+            <a href="https://www.dnb.de/DE/Home/home_node.html" target="_blank">
+              <li class="item"> Deutsche Nationalbibliothek (DNB) <tag-grey>German</tag-grey><p>The homepage of the national library of Germany provides other than its functionalities as a central library a vast resource of bibliography published in the German language / published by Germans.</p></li>
+            </a>
+
+            <a href="http://www.dainst.org/" target="_blank">
+              <li class="item"> Deutsches Archäologisches Institut (DAI) <tag-grey>German</tag-grey><p>This is the homepage of the "Deutsches Archäologisches Institut", dedicated to archeological news and research.</p> </li>
+            </a>
+
+            <a href="http://woerterbuchnetz.de/DWB/" target="_blank">
+              <li class="item"> Deutsches Wörterbuch von Jacob Grimm und Wilhelm Grimm - Wörterbuchnetz <tag-grey>German</tag-grey><p>A digital version of the German dictionary by Jacob and Wilhelm Grimm.</p></li>
+            </a>
+
+            <a href="https://www.persee.fr/collection/dhjap" target="_blank">
+              <li class="item"> Dictionnaire historique du Japon <tag-grey>French</tag-grey> <p></p></li>
+            </a>
+
+            <a href="https://digital.bodleian.ox.ac.uk/" target="_blank">
+              <li class="item"> Digital Bodleian <tag-grey>English</tag-grey><p>This database collects, in their own words, digitized pictures, art, paintings, photographs etc. of the Bodleian Libraries and Oxford College libraries. From Western to Asian objects, manuscripts and printed books, one may find many resources regardless of genre, geographical region and time period.</p></li>
+            </a>
+
+            <a href="https://digital-scriptorium.org/" target="_blank">
+              <li class="item"> Digital Scriptorium <tag-grey>English</tag-grey> <p></p></li>
+            </a>
+
+            <a href="https://www.ub.uni-koeln.de/sammlungen/inkunabeln/index_ger.html" target="_blank">
+              <li class="item"> Digitale Sammlung Inkunabeln und Blockbücher Universität Köln <tag-grey>English</tag-grey><p>This website makes digitized codicological sources (including incunabula) of the University of Köln (Cologne, Germany) freely accessible.</p></li>
+            </a>
+
+            <a href="https://ostasien.digitale-sammlungen.de/?locale=de" target="_blank">
+              <li class="item"> Digitale Sammlungen Ostasien <tag-grey>German</tag-grey> <p></p></li>
+            </a>
+
+            <a href="https://www.gda.bayern.de/DigitaleSchriftkunde/" target="_blank">
+              <li class="item"> Digitale Schriftkunde <tag-grey>German</tag-grey><p>This website helps students and those who are interested in paleography by providing many different manuscript types from the 8th to the 20th century as well as an answer key. The digitized manuscripts are all collected from Bavarian archives. </p> </li>
+            </a>
+
+            <a href="https://www.portraitindex.de/" target="_blank">
+              <li class="item"> Digitaler Portraitindex <tag-grey>German</tag-grey><p>This website collects digitized portraits taken from printed sources of the Early Modern Period.</p> </li>
+            </a>
+
+            <a href="https://memoryofpaper.eu/dmva/dmva_searchHU.php" target="_blank">
+              <li class="item"> Digitális Magyar Vízjel Adatbank (DMVA) <tag-grey>Hungarian</tag-grey><p>A database of watermarks for codicological or paleographical research.</p> </li>
+            </a>
+
+            <a href="https://digitizedmedievalmanuscripts.org/" target="_blank">
+              <li class="item"> Digitized medieval manuscripts (DMMapp) <tag-grey>English</tag-grey> <p></p></li>
+            </a>
+
+            <a href="https://digi.vatlib.it/?ling=en" target="_blank">
+              <li class="item"> DigiVatLib (DVL) <tag-grey>English</tag-grey> <p></p></li>
+            </a>
+
+            <a href="https://www.treccani.it/biografico/" target="_blank">
+              <li class="item"> Dizionario Biografico degli Italiani <tag-grey>Italian</tag-grey><p>This lexicon collects entries of Italian figures throughout Italian history.</p> </li>
+            </a>
+
+            <a href="https://www.dmgh.de/" target="_blank">
+              <li class="item"> dMGH <tag-grey>German</tag-grey><p>The dMGH offers the digitized versions of the source editions by the Monumenta Germaniae Historica (MGH).</p></li>
+            </a>
+
+
+
+            <a href="http://www.documentacatholicaomnia.eu/" target="_blank">
+              <li class="item"> Documenta Catholica ominia <tag-grey>Latin</tag-grey></li>
+            </a>
+
+
+
+            <!--E-->
+            <a href="http://www.e-codices.unifr.ch/de" target="_blank">
+              <li class="item"> e-codices <tag-grey>German</tag-grey><p>An online library of digitized Swiss manuscripts from the Middle Ages as well as from the Early Modern Period. </p></li>
+            </a>
+
+            <a href="http://elec.enc.sorbonne.fr/" target="_blank">
+              <li class="item"> Éditions en ligne de l'École des chartes (Élec) <tag-grey>French</tag-grey><p>A website for news and publications regarding French historical sources.</p></li>
+            </a>
+
+
+            <a href="https://www.hist-einband.de/" target="_blank">
+              <li class="item"> Einbanddatenbank (EBDB) <tag-grey>German</tag-grey><p>A database for codicological research of 15th and 16th century sources focusing on book covers.</p></li>
+            </a>
+
+            <a href="http://ezb.uni-regensburg.de/ezeit/search.phtml?bibid=SULB&colors=7&lang=de" target="_blank">
+              <li class="item"> Elektronische Zeitschriftenbibliothek (EZB) <tag-grey>German</tag-grey><p>A meta database of research journals for different research disciplines. </p></li>
+            </a>
+
+
+             <a href="https://db.edcs.eu/epigr/epi.php?s_sprache=en" target="_blank">
+              <li class="item"> Epigraphik-Datenbank Clauss / Slaby (EDCS) <tag-grey>German</tag-grey><p>A database for Latin epigraphy.</p></li>
+            </a>
+
+            <a href="http://edh-www.adw.uni-heidelberg.de/home?lang=de" target="_blank">
+              <li class="item"> Epigraphische Datenbank Heidelberg <tag-grey>German</tag-grey><p>A database for epigraphical sources of the Roman Empire.</p></li>
+            </a>
+
+
+            <a href="http://www.biographie-portal.eu/" target="_blank">
+              <li class="item"> Europäisches Biographieportal <tag-grey>German</tag-grey><p>A meta database for biographical entries of several different lexica.</p></li>
+            </a>
+
+
+
+            <!--F-->
+            <a href="https://www.cultura.gob.es/filigranas/buscador_init" target="_blank">
+              <li class="item"> Filigranas Hispánicas <tag-grey>Spanish</tag-grey><p>A database of watermarks for codicological or paleographical research.</p></li>
+            </a>
+
+            <a href="https://fragmentarium.ms/" target="_blank">
+              <li class="item"> Fragmentarium <tag-grey>English</tag-grey><p>A manuscript collection produced by researchers and students for paleographical research or transcription training.</p></li>
+            </a>
+
+            <a href="https://journals.ub.uni-heidelberg.de/index.php/frrec/" target="_blank">
+              <li class="item"> Francia-Recensio <tag-grey>German</tag-grey><p>The homepage of the journal "Francia-Recensio". The journal reviews historical researches of West European focus.</p></li>
+            </a>
+
+            <!--G-->
+            <a href="https://gallica.bnf.fr/accueil/en/content/accueil-en?mode=desktop" target="_blank">
+              <li class="item"> Gallica <tag-grey>French</tag-grey><p>An online library containing digitized historical sources, including prints, older research publications, images, pictures etc.</p></li>
+            </a>
+
+            <a href="http://www.gbv.de" target="_blank">
+              <li class="item"> Gemeinsamer Bibliotheksverund (GBV) <tag-grey>German</tag-grey> <p></p></li>
+            </a>
+
+            <a href="http://genealogy.euweb.cz/" target="_blank">
+              <li class="item"> Genealogy <tag-grey>English</tag-grey><p>A list of European noble and royal families and their family trees.</p></li>
+            </a>
+
+            <a href="http://personendatenbank.germania-sacra.de/index/browse" target="_blank">
+              <li class="item"> Germania Sacra online Personenregister <tag-grey>German</tag-grey><p>A biographical database for mainly figures in the sacral world of the Middle Ages and the Early Modern Period.</p></li>
+            </a>
+
+            <a href="http://www.personalschriften.de/datenbanken/gesa.html" target="_blank">
+              <li class="item"> Gesamtkatalog Deutscher Leichenpredigten (GESA) <tag-grey>German</tag-grey><p>A (meta) catalogue for sermons in the German language.</p></li>
+            </a>
+
+            <a href="http://www.geschichtsquellen.de/index.html" target="_blank">
+              <li class="item"> Geschichtsquellen des deutschen Mittelalters <tag-grey>German</tag-grey><p>A collection of biographies and works of the Middle Ages. This project can be regarded as a digital continuation of the former printed series "Repertorium Fontium Historiae Medii Aevi".</p></li>
+            </a>
+
+            <a href="https://www.getty.edu/research/tools/vocabularies/tgn/" target="_blank">
+              <li class="item"> Getty’s Thesaurus of Geographic Names Online (TGN) <tag-grey>English</tag-grey><p>A lexicon of geographic names. Each entry provides names attributed to the place (including Latin names, similar to Orbis Latinus), and short historical descriptions. </p></li>
+            </a>
+
+            <a href="http://gloss-e.irht.cnrs.fr/" target="_blank">
+              <li class="item"> Glossae Scripturae Sacrae-electronicae (Gloss-e) - Gloses et commentaires de la Bible latine au Moyen Âge <tag-grey>French</tag-grey><p>A collection of Bible glosses and commentaries from the Middle Ages. It provides glosses / commentaries of different authors as well as help for reading and interpretation.</p></li>
+            </a>
+
+            <a href="https://www.gbd.digital/metaopac/start.do?View=gnomon" target="_blank">
+              <li class="item"> Gnomon <tag-grey>German</tag-grey><p>A database for Classical Studies including entries of publications, reviews, lexica as well as newer materials in video format.</p></li>
+            </a>
+
+            <a href="https://goodspeed.lib.uchicago.edu/" target="_blank">
+              <li class="item"> Goodspeed Manuscript Collection <tag-grey>English</tag-grey> <p></p></li>
+            </a>
+
+            <a href="http://www.gothicivories.courtauld.ac.uk/" target="_blank">
+              <li class="item"> Gothic Ivories <tag-grey>English</tag-grey><p>A collection of Gothic and Neo-Gothic ivory sculptures from Western Europe.</p> </li>
+            </a>
+
+            <a href="https://www.graphikportal.org/" target="_blank">
+              <li class="item"> Graphikportal <tag-grey>German</tag-grey><p>A meta database for digitized graphical sources of German, Austrian and Swiss collections.</p> </li>
+            </a>
+
+            <a href="http://www.globalchant.org/index.php" target="_blank">
+              <li class="item"> Gregorian Chant Database <tag-grey>English</tag-grey><p>A database for Gegorian Chant texts, melodies and similar sources. Although apparently still maintained, the database's news section has stopped in 2009.</p></li>
+            </a>
+
+            <a href="http://bilder.manuscripta-mediaevalia.de/gaeste//grotefend/grotefend.htm" target="_blank">
+              <li class="item"> Grotefend <tag-grey>German</tag-grey><p>A digital version of the "Taschenbuch der Zeitrechnung des deutschen Mittelalters und der Neuzeit" by Hermann Grotefend, a tool for researching chronology related matters.</p></li>
+            </a>
+
+            <a href="http://www.remacle.org/bloodwolf/historiens/guizot/table.htm" target="_blank">
+              <li class="item">Guizot, M: Collection des mémoires relatifs à l'histoire de France <tag-grey>French</tag-grey><p>A digital version of the "Collection des mémoires relatifs à l'histoire de France" by M. Guizot.</p> </li>
+            </a>
+
+
+            <!--H-->
+            <a href="https://digital.dombibliothek-koeln.de/handschriften/" target="_blank">
+              <li class="item"> Handschriften der Diözesan- und Dombibliothek Köln <tag-grey>German</tag-grey><p>A database for digitized manuscripts in the library of diocese and cathedral of Köln (Cologne, Germany).</p></li>
+            </a>
+
+            <a href="https://handschriftencensus.de/" target="_blank">
+              <li class="item"> Handschriftencensus <tag-grey>German</tag-grey> <p>A database for medieval manuscripts in the German language, including further research information, digitized manuscipts etc.</p></li>
+            </a>
+
+            <a href="http://www.rzuser.uni-heidelberg.de/~gv0/" target="_blank">
+              <li class="item"> Heidelberger Gesamtverzeichnis der Papyrusurkunden Ägyptens (HGV) <tag-grey>German</tag-grey><p>A collection of papyri charters of Egypt, ostraca, texts and other historical sources related to the paleographical and geographical topic.  </p></li>
+            </a>
+
+            <a href="https://hmml.org/" target="_blank">
+              <li class="item"> Hill Museum & Manuscript Library (HMML) <tag-grey>English</tag-grey><p>A collection of European, Islamic and Asian manuscripts.</p> </li>
+            </a>
+
+            <a href="http://www.historicum.net/" target="_blank">
+              <li class="item"> Historicum <tag-grey>German</tag-grey><p>A portal for news, research and publications mainly addressed to German and German speaking historians.</p></li>
+            </a>
+
+            <a href="https://historische-bibliographie.degruyter.com/" target="_blank">
+              <li class="item"> Historische Bibliographie Online (HBO) <tag-grey>German</tag-grey><p>A database for publications by German researchers.</p></li>
+            </a>
+
+            <a href="http://www.vl-ghw.uni-muenchen.de/" target="_blank">
+              <li class="item"> Historische Hilfswissenschaften <tag-grey>German</tag-grey><p>This website provides basic knowledge of historical auxiliary disciplines, such as paleography, codicology, heraldy, numismatics, charters and documents, sigillography, metrology, edition series and so on. However, the website is not actively maintained since 2009. </p></li>
+            </a>
+
+
+            <a href="https://hov.isgv.de/" target="_blank">
+              <li class="item"> HOV / ISGV - Digitales Historisches Ortsverzeichnis von Sachsen <tag-grey>German</tag-grey><p>A database for regional studies of Saxony, including the history and development of Saxon cities and villages. Each entry has information about the change of regional name, population, religion and its administration.</p></li>
+            </a>
+
+            <a href="http://martinellus.de/snt2/n/incipit.htm" target="_blank">
+              <li class="item"> Hypertext-Lexikon der tironischen Noten <tag-grey>German</tag-grey><p>A digital lexicon of Tironian notes.</p></li>
+            </a>
+
+            <!--I-->
+            <a href="https://www.degruyter.com/database/ibr/html" target="_blank">
+              <li class="item"> IBR Online- Internationale Bibliographie der Rezensionen geistes- und sozialwissenschaftlicher Literatur <tag-grey>German</tag-grey><p>A database for reviews of publications in humanities and social sciences.</p></li>
+            </a>
+
+            <a href="https://www.degruyter.com/database/ibz/html" target="_blank">
+              <li class="item"> Internationale Bibliographie der geistes- und sozialwissenschaftlichen Zeitschriftenliteratur (IBZ) <tag-grey>German</tag-grey><p>A database for rejournals in humanities and social sciences</p></li>
+            </a>
+
+            <a href="http://www.internetculturale.it/" target="_blank">
+              <li class="item"> Internet Culturale. Cataloghi e collezioni digitali delle biblioteche Italiane <tag-grey>Italian</tag-grey> <p></p></li>
+            </a>
+
+            <a href="https://kxp.k10plus.de/DB=1.68/DB=1.68/LNG=DU/SRT=RLV/IMPLAND=Y/?COOKIE=U999,K999,D1.68,E08bd52c0-14,I0,B9994++++++,SY,QDEF,A,H12,,73,,76-78,,88-90,NGAST,R94.134.92.86,FN" target="_blank">
+              <li class="item"> IKAR - Landkartendrucke Datenbank <tag-grey>German</tag-grey><p>A database for cartography until 1850.</p></li>
+            </a>
+
+            <a href="https://ixtheo.de/" target="_blank">
+              <li class="item"> Index Theologicus <tag-grey>English</tag-grey><p>A database for theological and religion related research.</p></li>
+            </a>
+
+            <a href="https://data.cerl.org/istc/_search" target="_blank">
+              <li class="item"> Incunabula Shorttitle Catalogue　(ISTC) <tag-grey>English</tag-grey><p>A database for codicological research of 15th century prints aka incunabula.</p></li>
+            </a>
+
+
+            <a href="http://telota.bbaw.de/ig/" target="_blank">
+              <li class="item"> Inscriptiones Graecae <tag-grey>German</tag-grey><p>A collection of Greek digitized inscriptions. The roots of the project date back to the "Corpus Inscriptionum Graecarum" and "Inscriptiones Graecae" publication series of the 19th and 20th century.</p></li>
+            </a>
+
+            <a href="https://www.irht.cnrs.fr/fr" target="_blank">
+              <li class="item"> Institut de recherche et d’histoire des textes (IRHT) <tag-grey>French</tag-grey> <p></p></li>
+            </a>
+
+            <a href="http://www.intratext.com/" target="_blank">
+              <li class="item"> IntraText <tag-grey>English</tag-grey> <p></p></li>
+            </a>
+
+
+
+            <!--J-->
+
+            <a href="https://www.jacar.go.jp/" target="_blank">
+              <li class="item">  国立公文書館アジア歴史資料センター [Japan Center for Asian Historical Records National Archives of Japan] <tag-grey>Japanese</tag-grey> <p></p></li>
+            </a>
+
+            <a href="http://j-dac.jp/" target="_blank">
+              <li class="item"> ジャパン デジタル アーカイブズ センター [Japan Digital Archives Center] (J-DAC) <tag-grey>Japanese</tag-grey> <p></p></li>
+            </a>
+
+            <a href="http://www.jstor.org/" target="_blank">
+              <li class="item"> JSTOR <tag-grey>English</tag-grey><p>A database of mainly journals and articles. Registration or institutional access might be needed for download. </p></li>
+            </a>
+
+            <!--K-->
+            <a href="https://kvk.bibliothek.kit.edu/?digitalOnly=0&embedFulltitle=0&newTab=0" target="_blank">
+              <li class="item"> Karlsruher Virtueller Katalog (KVK) <tag-grey>German</tag-grey><p>A meta search engine for a query of many different databases and catalogues of libraries, projects and institutions worldwide.</p></li>
+            </a>
+
+            <a href="https://www.kirke.hu-berlin.de/ressourc/ressourc.html#epig" target="_blank">
+              <li class="item"> KIRKE - Katalog der Internetressourcen für die Klassische Philologie <tag-grey>German</tag-grey><p>A collection of internet sites, resources, mailing lists and further information regarding Classical Philology in German.</p></li>
+            </a>
+
+            <a href="http://muenzen.uni-koeln.de/portal/home.html?l=de" target="_blank">
+              <li class="item"> Kölner Münzportal <tag-grey>German</tag-grey><p>A collection of numismatic objects owned by the University of Köln (Cologne, Germany). Every catalog entry shows the digitized objects from both sides and provides a meta description of the object.</p></li>
+            </a>
+
+            <a href="https://www.dl.ndl.go.jp/" target="_blank">
+              <li class="item"> 国立国会図書館デジタルコレクション [Kokuritsu kokkai toshokan collection] <tag-grey>Japanese</tag-grey><p>A database of every digitized object of the National Diet Library in Japan. An English version is also available. According to copyright, some might only be accessible in the libraries in Japan (Tokyo or Kyoto, Japan).</p></li>
+            </a>
+
+
+            <a href="http://www.kruenitz1.uni-trier.de/" target="_blank">
+              <li class="item"> Krünitz, M.: Ökonomische Enzyklopädie <tag-grey>German</tag-grey> <p></p></li>
+            </a>
+
+            <!--L-->
+            <a href="https://www.leo-bw.de/web/guest/home" target="_blank">
+              <li class="item"> Landeskunde entdecken online (leo bw) <tag-grey>German</tag-grey> <p></p></li>
+            </a>
+
+            <a href="http://www.thelatinlibrary.com/" target="_blank">
+              <li class="item"> Latin Library <tag-grey>English</tag-grey><p>A collection of famous Latin authors and their works, all accessible in digital text format.</p></li>
+            </a>
+
+            <a href="https://lta.bbaw.de/" target="_blank">
+              <li class="item"> Latin Text Archive <tag-grey>English</tag-grey><p>A database of Latin texts with features for text analysis.</p></li>
+            </a>
+
+
+            <a href="http://racineshistoire.free.fr/" target="_blank">
+              <li class="item"> Ligages et filiations généalogiques de la France <tag-grey>French</tag-grey><p>A website dedicated to genealogy, especially to the nobility lineage of Montfort and the region of Yvelines (France).</p></li>
+            </a>
+
+            <a href="https://woerterbuchnetz.de/?sigle=Lexer#2" target="_blank">
+              <li class="item"> Lexicon musicum Latinum medii aevi - Wörterbuchnetz <tag-grey>German</tag-grey> <p></p></li>
+            </a>
+
+            <!--M-->
+
+            <a href="http://mandragore.bnf.fr/html/accueil.html" target="_blank">
+              <li class="item"> Mandragore - base des manuscrits enluminés de la BnF <tag-grey>French</tag-grey> <p></p></li>
+            </a>
+
+            <a href="https://archive.org/details/geschichtederlateinischenlitmani1/%20geschichtederlateinischenlitmani1/" target="_blank">
+              <li class="item"> Manitius, M.: Geschichte der lateinischen Literatur des Mittelalters, Teil 1, 5. Jh - 10. Jh. <tag-grey>German</tag-grey><p>A collection of Latin works and authors from the Middle Ages. This is volume 1. It vaguely covers the timespan between the 5th and the 10th century. </p></li>
+            </a>
+
+            <a href="https://archive.org/details/geschichtederlateinischenlitmani2" target="_blank">
+              <li class="item"> Manitius, M.: Geschichte der lateinischen Literatur des Mittelalters, Teil 2, 10. Jh. - 12. Jh. <tag-grey>German</tag-grey><p>A collection of Latin works and authors from the Middle Ages. This is volume 2. It vaguely covers the timespan between the 10th and the 12th century.</p></li>
+            </a>
+
+            <a href="https://archive.org/details/VomAusbruchDesKirchenstreites/mode/2up" target="_blank">
+              <li class="item"> Manitius, M.: Geschichte der lateinischen Literatur des Mittelalters, Teil 3, 12. Jh. - 13. Jh. <tag-grey>German</tag-grey><p>A collection of Latin works and authors from the Middle Ages. This is volume 3. It vaguely covers the timespan between the 12th and the 13th century.</p></li>
+            </a>
+
+            <a href="https://manus.iccu.sbn.it/web/manus" target="_blank">
+              <li class="item"> Manus Online (MOL) <tag-grey>Italian</tag-grey><p>A collection of manuscripts from Italian libraries. Every entry is generally provided with an extensive metadata description as well as a digitization of the manuscript. </p></li>
+            </a>
+
+            <a href="http://www.manuscripta-mediaevalia.de/#|4" target="_blank">
+              <li class="item"> Manuscripta Mediaevalia <tag-grey>German</tag-grey><p>A collection of manuscripts, generally from German libraries. The site provides metadata description as well as further codicological / paleographical information. </p></li>
+            </a>
+
+
+            <a href="https://web.colby.edu/canonlaw/tag/glossa-ordinaria/" target="_blank">
+              <li class="item"> Medieval Canon Law Virtual Library <tag-grey>English</tag-grey><p></p> </li>
+            </a>
+
+            <a href="http://medieval-history.org/" target="_blank">
+              <li class="item"> Medieval History Database (MHDB) <tag-grey>English</tag-grey> <p></p></li>
+            </a>
+
+            <a href="https://wikihost.uib.no/medieval/index.php/Medieval_Nordic_Literature_in_Latin" target="_blank">
+              <li class="item"> Medieval Nordic Literature in Latin <tag-grey>English</tag-grey><p>A lexicon of authors and works of Nordic countries in the Middle Ages. Its focus lies on the timespan 1100–1530 and on Latin works.</p></li>
+            </a>
+
+            <a href="https://medieval.bodleian.ox.ac.uk/" target="_blank">
+              <li class="item"> Medieval Manuscripts in Oxford Libraries <tag-grey>English</tag-grey> <p></p></li>
+            </a>
+
+            <a href="http://medium.irht.cnrs.fr/" target="_blank">
+              <li class="item"> Medium <tag-grey>French</tag-grey><p>A database of manuscripts from France and other countries.</p></li>
+            </a>
+
+            <a href="http://www.mgh.de/~Poetae/Liste.htm" target="_blank">
+              <li class="item"> MGH Poetae -  Liste lateinischer Autoren und anonymer Werke des 13. Jahrhunderts <tag-grey>German</tag-grey><p>A collection of authors and works of the 13th century. This work is intended to dock on the prior work of "Geschichte der lateinischen Literatur des Mittelalter" by M. Manitius in three volumes.</p></li>
+            </a>
+
+            <a href="http://mittelalter.hypotheses.org/" target="_blank">
+              <li class="item"> Mittelalter Blog <tag-grey>German</tag-grey><p>A blog with the focus on the Middle Ages. It provides research articles, links to reviews, event calendars and much more. </p></li>
+            </a>
+
+            <a href="https://woerterbuchnetz.de/?sigle=Lexer#0" target="_blank">
+              <li class="item"> Mittelhochdeutsches Handwörterbuch - Wörterbuchnetz <tag-grey>German</tag-grey> <p></p></li>
+            </a>
+
+            <a href="http://mizar.unive.it/mqdq/public/" target="_blank">
+              <li class="item"> Musisque Deoque <tag-grey>English</tag-grey><p>A database intended to collect Latin poetry up to the Italian Renaissance.</p></li>
+            </a>
+
+            <a href="https://www.monasterium.net/mom/home?_lang=deu" target="_blank">
+              <li class="item"> Monasterium <tag-grey>German</tag-grey><p>A source collection mainly intended for charters.</p></li>
+            </a>
+
+            <a href="https://www.digitale-sammlungen.de/de" target="_blank">
+              <li class="item"> Münchner Digitalisierungszentrum (MDZ) <tag-grey>German</tag-grey><p>A digital library that provides entire digitized books, manuscripts and other resources that can be found in the "Bayerische Staatsbibliothek" München (Munich, Germany). </p></li>
+            </a>
+
+            <!--N-->
+            <a href="https://www.navigium.de/latein-woerterbuch.html" target="_blank">
+              <li class="item"> Navigium <tag-grey>German</tag-grey><p>An online dictionary for Latin in German, initially intended for students.</p></li>
+            </a>
+
+
+
+            <a href="http://referenceworks.brillonline.com/search?s.q=&s.f.s2_parent=s.f.book.der-neue-pauly&search-go=Search" target="_blank">
+              <li class="item"> Neuer Pauly <tag-grey>German</tag-grey><p></p></li>
+            </a>
+
+            <a href="https://nestor.sub.uni-goettingen.de/handbuch/nestor-handbuch_23.pdf" target="_blank">
+              <li class="item"> Neuroth, H. et al.: nestor Handbuch. Eine kleine Enzyklopädie der digitalen Langzeitarchivierung <tag-grey>German</tag-grey> <p></p></li>
+            </a>
+
+            <a href="https://www.numid.online/home?lang=de" target="_blank">
+              <li class="item"> NUMiD <tag-grey>German</tag-grey><p>A metadatabase for numismatic collections of currently mainly German libraries and institutions. Every catalog entry shows the digitized objects from both sides and provides an extensive meta description of the object.</p></li>
+            </a>
+
+            <a href="http://www.nbeonline.de/zursuche.FAU?sid=FFE51A741&dm=1&rpos=1" target="_blank">
+              <li class="item"> Numismatische Bilddatenbank (NBE) <tag-grey>German</tag-grey><p>A collection of numismatic objects of the University of Eichstätt (Germany). Every catalog entry shows the digitized objects from both sides and provides a meta description of the object. </p></li>
+            </a>
+
+            <a href="https://www.nuovabibliotecamanoscritta.it/Generale/index.html?language=it&" target="_blank">
+              <li class="item"> Nuova Biblioteca Manoscritta (NBM) <tag-grey>Italian</tag-grey> <p></p></li>
+            </a>
+
+            <!--O-->
+            <a href="https://library.oapen.org/" target="_blank">
+              <li class="item"> OAPEN <tag-grey>English</tag-grey><p>A database of open access literature. The books are freely downloadable</p></li>
+            </a>
+
+            <a href="https://www.oldmapsonline.org/" target="_blank">
+              <li class="item"> Old Maps Online <tag-grey>English</tag-grey> <p></p></li>
+            </a>
+
+            <a href="http://numismatics.org/ocre/" target="_blank">
+              <li class="item"> Online Coins of the Roman Empire (OCRE) <tag-grey>English</tag-grey><p>A database for numismatic objects of the Roman Empire. It has many features and tools for identifying coins.</p></li>
+            </a>
+
+            <a href="https://www.heiligenlexikon.de/" target="_blank">
+              <li class="item"> Ökumenisches Heiligenlexikon <tag-grey>German</tag-grey><p>A collection dedicated to saints in the German language.</p></li>
+            </a>
+
+
+            <a href="https://swb.bsz-bw.de/DB=2.104/?COOKIE=Us998,Pbszgast,I2017,B20728+,SY,NRecherche-DB,D2.104,E161e30f2-1090,A,H,R95.91.50.167,FY&COOKIE=Us998,Pbszgast,I2017,B20728+,SY,NRecherche-DB,D2.104,E4c1e8824-2,A,H,R96.190.71.96,FY&COOKIE=Us998,Pbszgast,I2017,B20728+,SY,NRecherche-DB,D2.104,E35ca342b-2,A,H,R94.134.92.86,FY" target="_blank">
+              <li class="item"> OGND <tag-grey>German</tag-grey><p>A database dedicated to the biographical information system "Gemeinsame Normdatei" (GND). It can be used to identify different writing or transliteration systems of names, relationships of the person to others, geographical information as well as related works.</p></li>
+            </a>
+
+
+            <a href="http://www.columbia.edu/acis/ets/Graesse/orblata.html" target="_blank">
+              <li class="item"> Orbis Latinus <tag-grey>German</tag-grey><p>A digital version of the "Orbis Latinus" by J. G. T. Grässe. It is intended to decipher Latin geographical names into modern names.</p></li>
+            </a>
+
+            <a href="http://www.nabkal.de/ostrech1.html" target="_blank">
+              <li class="item"> Osterdatum-Rechner <tag-grey>German</tag-grey><p>A calculator for Easter, both for the Julian and the Gregorian systems.</p></li>
+            </a>
+
+            <!--P-->
+            <a href="http://epigraphy.packhum.org/inscriptions/" target="_blank">
+              <li class="item"> Packard Humanities Institute Searchable Greek Inscriptions <tag-grey>English</tag-grey><p>A collection of Greek inscriptions in a digitized and searchable format. Prior usage one must agree to their license.</p></li>
+            </a>
+
+            <a href="http://www.palaeographie-online.de/login.php" target="_blank">
+              <li class="item"> Paleographie-Online <tag-grey>German</tag-grey><p>An online cours intended for students who want to learn to decipher different scripts and paleographical components. For full usage, registration is required.</p></li>
+            </a>
+
+            <a href="http://kronos.narc.fi/paperi/index_en.html" target="_blank">
+              <li class="item"> Paper Identification Database <tag-grey>English</tag-grey> <tag-grey>Finnish</tag-grey><p>A database for codicological or paleographical research of Nordic sources, especially focused on Finnish, Swedish and Estonian papers.</p></li>
+            </a>
+
+            <a href="https://papyri.info/docs/checklist" target="_blank">
+              <li class="item"> Papyri.info - Checklist of Editions of Greek, Latin, Demotic and Coptic Papyri, Ostraca and Tablets <tag-grey>English</tag-grey><p>A special site on the "Papyri.info" webpage  that lists up all the editions related to the historical sources mentioned above.</p></li>
+            </a>
+
+            <a href="https://www.papyrusportal.de/content/start.xml" target="_blank">
+              <li class="item"> Papyrus Portal <tag-grey>German</tag-grey><p>A collection of papyri resources.</p></li>
+            </a>
+
+            <a href="http://dla.library.upenn.edu/dla/medren/index.html" target="_blank">
+              <li class="item"> Penn in Hand <tag-grey>English</tag-grey> <p>A collection of manuscripts and other historical sources from "Penn's Rare Book & Manuscript Library" and other personal collections. The sources range from the the Middle Ages to the 21st century.</p></li>
+            </a>
+
+            <a href="https://www.persee.fr/collections?d=111" target="_blank">
+              <li class="item"> Persée <tag-grey>French</tag-grey> <p>A collection of research literature, articles, lexica etc. in French.</p></li>
+            </a>
+
+            <a href="http://www.perseus.tufts.edu/" target="_blank">
+              <li class="item"> Perseus Digital Library <tag-grey>English</tag-grey><p>A digital library for Greco-Roman resources.</p></li>
+            </a>
+
+            <a href="http://www.rheinische-geschichte.lvr.de/start" target="_blank">
+              <li class="item"> Portal Rheinische Geschichte <tag-grey>German</tag-grey><p>A website dedicated to the history of Rhenania from anitiquity to modern times.</p></li>
+            </a>
+
+            <a href="http://www.pseudoisidor.mgh.de/" target="_blank">
+              <li class="item"> Projekt Pseudoisidor <tag-grey>German</tag-grey><p>A project that provides information, translations, editions etc. of the 9th entury Pseudoisidor case.</p></li>
+            </a>
+
+           <a href="https://www.prometheus-bildarchiv.de/" target="_blank">
+              <li class="item"> Prometheus <tag-grey>English</tag-grey><p>A database for digital images.</p></li>
+            </a>
+
+            <a href="http://www.propylaeum.de/" target="_blank">
+              <li class="item"> Propylaeum <tag-grey>German</tag-grey><p>A portal for news, research and publication mainly addressed to German and German speaking classical studies researchers.</p></li>
+            </a>
+
+            <!--Q-->
+
+            <a href="https://perspectivia.net//receive/repper_mods_00000811?q=" target="_blank">
+              <li class="item"> Quellen und Forschungen aus italienischen Archiven und Bibliotheken <tag-grey>German</tag-grey><p>A publication series of the "Deutsches Historisches Institut in Rom" (DHI Rom, Rome, Italy) about research and resources in Italian archives and libraries.</p></li>
+            </a>
+
+            <!--R-->
+            <a href="https://realonline.imareal.sbg.ac.at/" target="_blank">
+              <li class="item"> Realonline <tag-grey>German</tag-grey><p>A collection of digitized objects, mainly art, from the Middle Ages and the Early Modern Period.</p></li>
+            </a>
+
+            <a href="https://www.recensio.net/front-page-en" target="_blank">
+              <li class="item"> Recensio.net <tag-grey>English</tag-grey><p>A platform for historical research reviews in Europe.</p></li>
+            </a>
+
+            <a href="http://opac.regesta-imperii.de/lang_de/" target="_blank">
+              <li class="item"> Regesta Imperii OPAC <tag-grey>German</tag-grey><p>A database for European publications on the research of the Middle Ages.</p></li>
+            </a>
+
+            <a href="http://www.regesta-imperii.de/regesten/suche.html?tx_hisodat_sources%5BsearchMode%5D=20&tx_hisodat_sources%5Baction%5D=searchform&tx_hisodat_sources%5Bcontroller%5D=Sources&cHash=e9ae64d170f9f48e80a3592af1425d2a#rinav" target="_blank">
+              <li class="item"> Regesta Imperii Regesten <tag-grey>German</tag-grey><p>A digital version of the publication series of "Regesta Imperii" (RI) ranging from the 8th to the 16th century. The database provides regesta of the royal and papal charters in accordance with the charters edited by the Monumenta Germaniae Historica (MGH) series.</p></li>
+            </a>
+
+            <a href="https://www.papsturkunden.de/" target="_blank">
+              <li class="item"> Regesta pontificum Romanorum <tag-grey>English</tag-grey><p> A digital regesta series of papal charters.</p></li>
+            </a>
+
+
+
+
+            <a href="https://rekion.dl.ndl.go.jp/?__lang=ja" target="_blank">
+              <li class="item"> れきおん [Rekion] <tag-grey>Japanese</tag-grey><p>A database for historical music hosted by the National Diet Library Japan.</p></li>
+            </a>
+
+            <a href="https://rekiseek.hydeen.com/" target="_blank">
+              <li class="item"> 歴seek [Rekiseek] <tag-grey>Japanese</tag-grey><p>A database for historical events around the world in the form of a searchable chronological timeline.</p></li>
+            </a>
+
+
+            <a href="http://requiem-projekt.de/" target="_blank">
+              <li class="item"> Requiem - römische Papst- und Kardinalsgrabmäler der Frühen Neuzeit <tag-grey>German</tag-grey><p>A webpage dedicated to sacral tombs of the Early Modern Period.</p></li>
+            </a>
+
+            <a href="https://tu-dresden.de/dcpc/fovog/" target="_blank">
+              <li class="item"> Research Center for Comparative History of Religious Orders FOVOG Dresden <tag-grey>German</tag-grey><p>The homepage of "FOVOG Dresden".</p></li>
+            </a>
+
+            <a href="https://www.centrostudimuratoriani.it/strumenti/ris/" target="_blank">
+              <li class="item"> Rerum Italicarum Scriptores (RIS) <tag-grey>English</tag-grey><p>The homepage of the "Rerum Italicarum Scriptores" edition series for Italian historical sources. This link leads directly to a table where a specific volume can be opened digitally.</p></li>
+            </a>
+
+            <a href="https://rpc.ashmus.ox.ac.uk/" target="_blank">
+              <li class="item"> Roman Provincial Coinage online <tag-grey>English</tag-grey><p>A numismatic webpage dedicated to the classification of Roman coins.</p></li>
+            </a>
+
+
+
+            <!--S-->
+            <a href="https://swb2.bsz-bw.de/DB=2.340/?COOKIE=Us998,Pbszgast,I2017,B20728+,SY,NRecherche-DB,D2.340,E27cd6599-329,A,H,R88.130.153.61,FY" target="_blank">
+              <li class="item"> Saarländischer Virtueller (Bibliotheks-)Katalog <tag-grey>German</tag-grey><p>A meta search engine for libraries of Saarland (Germany).</p></li>
+            </a>
+
+            <a href="https://saebi.isgv.de/" target="_blank">
+              <li class="item"> Sächsische Bibliographie (Säbi) <tag-grey>German</tag-grey><p>A collection of biographies from Saxony (Germany).</p></li>
+            </a>
+
+            <a href="http://sequentia.huma-num.fr/search" target="_blank">
+              <li class="item"> Sequentia <tag-grey>French</tag-grey><p>A database of chant texts and liturgy of the (Early) Modern Period.</p></li>
+            </a>
+
+            <a href="https://sdbm.library.upenn.edu/" target="_blank">
+              <li class="item"> Shoenberg Database of Manuscripts <tag-grey>English</tag-grey> <p></p></li>
+            </a>
+
+            <a href="https://data.mgh.de/databases/seals/bin/seal_list.html" target="_blank">
+              <li class="item"> Siegelsammlung MGH <tag-grey>German</tag-grey><p>A collection of seals in the inventory of the Monumenta Germaniae Historica (MGH) for research of sigillography and charters.</p></li>
+            </a>
+
+            <a href="http://www.sylloge-nummorum-graecorum.org/" target="_blank">
+              <li class="item"> Sylloge Nummorum Graecorum (SNG) <tag-grey>English</tag-grey><p>A collection of Greek coins in British inventories for numismatic research.</p></li>
+            </a>
+
+
+            <!--T-->
+            <a href="https://www.tambora.org/" target="_blank">
+              <li class="item"> Tambora <tag-grey>English</tag-grey><p>A collection of historical resources about environment and climatic observations.</p></li>
+            </a>
+
+            <a href="http://telma.irht.cnrs.fr/outils/originaux/index/" target="_blank">
+              <li class="item">Telma - Chartes originales antérieures à 1121 conservées en France <tag-grey>English</tag-grey><p>A website dedicated to French charters prior to 1121.</p></li>
+            </a>
+
+            <a href="https://www.archivschule.de/uploads/Forschung/ArchivwissenschaftlicheTerminologie/Terminologie.html" target="_blank">
+              <li class="item"> Terminologie der Archivwissenschaft <tag-grey>German</tag-grey><p>A list of words commonly used in archival facilities or archival research in German.</p></li>
+            </a>
+
+
+            <a href="http://theleme.enc.sorbonne.fr/" target="_blank">
+              <li class="item"> Themele <tag-grey>French</tag-grey><p>Themele stands for "Techniques pour l'Historien en Ligne : Études, Manuels, Exercices, Bibliographies".</p></li>
+            </a>
+
+            <a href="https://provenienz.gbv.de/T-PRO_Thesaurus_der_Provenienzbegriffe" target="_blank">
+              <li class="item"> Thesaurus der Provenienzbegriffe (T-PRO) <tag-grey>German</tag-grey> <p></p></li>
+            </a>
+
+            <a href="http://stephanus.tlg.uci.edu/" target="_blank">
+              <li class="item"> Thesaurus Linguae Graecae (TLG) <tag-grey>English</tag-grey><p>A digital library for Greek literature from anitiquity to the present.</p></li>
+            </a>
+
+            <a href="http://www.degruyter.com/db/tll" target="_blank">
+              <li class="item"> Thesaurus Linguae Latinae <tag-grey>English</tag-grey><p>A lexicon of Latin words. For the usage of the full version, institutional access might be needed.</p></li>
+            </a>
+
+            <a href="https://www.online.uni-marburg.de/fpmr/php/thelo/gn-html.php?gnid=2853292" target="_blank">
+              <li class="item"> Thesaurus Locorum (THELO) <tag-grey>German</tag-grey><p>A short list of geographical names in the Early modern Period. </p></li>
+            </a>
+
+            <a href="https://memoryofpaper.eu/gravell/" target="_blank">
+              <li class="item"> Thomas L. Gravell Watermark Archive <tag-grey>English</tag-grey><p> A collection of watermarks from the Public Library of Geneva (Swiss) for codicological or paleographical research.</p></li>
+            </a>
+
+            <a href="https://thulex.de/" target="_blank">
+              <li class="item"> Thürigen Legislativ & Exekutiv (thulex) <tag-grey>German</tag-grey> <p></p></li>
+            </a>
+
+
+
+            <a href="https://data.mgh.de/databases/tiro/" target="_blank">
+              <li class="item"> Tironische Noten Rückwärtssuche <tag-grey>German</tag-grey><p>Backwards search for the "Hypertext-Lexikon der tironischen Noten" lexicon for Tironian notes.</p></li>
+            </a>
+
+            <a href="https://toyo-bunko.repo.nii.ac.jp/" target="_blank">
+              <li class="item"> 東洋文庫リポジトリ [Tōyō bunko repository] <tag-grey>Japanese</tag-grey> <p></p></li>
+            </a>
+
+
+
+            <!--U-->
+            <a href="www.ustc.ac.uk" target="_blank">
+              <li class="item"> Universal Short Title Catalogue (USTC) <tag-grey>English</tag-grey> <p></p></li>
+            </a>
+
+            <a href="https://usuarium.elte.hu/" target="_blank">
+              <li class="item"> Usuarium <tag-grey>English</tag-grey><p>A collection of liturgical texts in Latin from the Middle Ages to the Early Modern Period.</p></li>
+            </a>
+
+            <!--V-->
+
+            <a href="https://www.vaticanlibrary.va/" target="_blank">
+              <li class="item"> Vatican Apostolic Library <tag-grey>English</tag-grey>
+              <p>The homepage of the Vatican Apostolic Library offers an online catalogue for its indexed historical resources. Among those resources, besides written ones, objects of numismatical or codicological interest can also be found. In addition, the website also provides digitized materials for the online spectator.</p></li>
+            </a>
+
+            <a href="https://www.gateway-bayern.de/TouchPoint_touchpoint/start.do?SearchProfile=Altbestand&SearchType=2" target="_blank">
+              <li class="item"> VD16 <tag-grey>German</tag-grey><p> A database for printed books of the 16th century in German speaking regions.</p></li>
+            </a>
+
+            <a href="http://www.vd17.de/" target="_blank">
+              <li class="item"> VD17 <tag-grey>German</tag-grey><p>A database for printed books of the 17th century in German speaking regions.</p></li>
+            </a>
+
+            <a href="https://kxp.k10plus.de/DB=1.65/DB=1.65/?COOKIE=U999,K999,D1.65,E08bd52c0-14,I0,B9994++++++,SY,QDEF,A,H12,,73,,76-78,,88-90,NGAST,R94.134.92.86,FN" target="_blank">
+              <li class="item"> VD18 <tag-grey>German</tag-grey><p>A database for printed books of the 18th century in German speaking regions.</p></li>
+            </a>
+
+            <a href="http://sillok.history.go.kr/mc/main.do" target="_blank">
+              <li class="item"> 명실록·청실록 明實錄·淸實錄 Veritable Records of the Ming / Veritable Records of the Qing <tag-grey>Korean</tag-grey> <tag-grey>Traditional Chinese</tag-grey> <p></p></li>
+            </a>
+
+            <a href="http://kvk.bibliothek.kit.edu/vdl" target="_blank">
+              <li class="item"> Virtuelle Deutsche Landesbibliographie <tag-grey>German</tag-grey><p>A bibliographical database for historical regional studies in Germany.</p></li>
+            </a>
+
+            <!--W-->
+            <a href="https://www.wzma.at/" target="_blank">
+              <li class="item"> Wasserzeichen des Mittelalters (WZMA) <tag-grey>German</tag-grey><p>A database of watermarks for codicological or paleographical research and the identification of watermarks.</p></li>
+            </a>
+
+            <a href="http://www.wasserzeichen-online.de/wzis/index.php" target="_blank">
+              <li class="item"> Wasserzeichen-Informationssystem (WZIS) <tag-grey>German</tag-grey><p>A database of watermarks for codicological or paleographical research and the identification of watermarks.</p></li>
+            </a>
+
+
+            <a href="http://www.piccard-online.de/start.php" target="_blank">
+              <li class="item"> Wasserzeichenkartei Piccard <tag-grey>German</tag-grey><p>A database of watermarks for codicological or paleographical research and the identification of watermarks.</p></li>
+            </a>
+
+            <a href="http://www.wm-portal.net/niki/index.php" target="_blank">
+              <li class="item"> Watermark Database of the Dutch University Institute for Art History <tag-grey>English</tag-grey><p>A database of watermarks for codicological or paleographical research.</p></li>
+            </a>
+
+            <a href="https://watermark.kb.nl/default/search/advanced/" target="_blank">
+              <li class="item"> Watermarks in Incunabula printed in the Low Countries (WILC) <tag-grey>English</tag-grey><p>A database of watermarks for codicological or paleographical research especially dedicated to incunabula in the Low Countries.</p></li>
+            </a>
+
+            <a href="https://wbis.degruyter.com/basic-search" target="_blank">
+              <li class="item"> World Biographical Information System (WBIS) <tag-grey>English</tag-grey><p>A database dedicated to biographies beginning with the 8th century B.C. An institutional login is required.</p></li>
+            </a>
+
+            <a href="http://wikis.sub.uni-hamburg.de/webis/index.php/Hauptseite" target="_blank">
+              <li class="item"> Webis <tag-grey>German</tag-grey><p></p></li>
+            </a>
+
+            <a href="https://www.bibelwissenschaft.de/wibilex/" target="_blank">
+              <li class="item"> Wissenschaftliches Bibellexikon (WiBiLex) <tag-grey>English</tag-grey><p>A digital Bible lexicon in German.</p></li>
+            </a>
+
+
+
+            <a href="https://woerterbuchnetz.de/?sigle=Lexer#1" target="_blank">
+              <li class="item"> Wörterbuchnetz <tag-grey>German</tag-grey> <p></p></li>
+            </a>
+
+
+
+            <!--X-->
+            <a href="https://xac.gencat.cat/ca/llista_arxius_comarcals/girones/" target="_blank">
+              <li class="item"> Xarxa d'Arxius Comarcals (XAC) <tag-grey>Catalan</tag-grey><p>A website related to historical archives in Catalonia. The website is also (partly) available in other languages. </p> </li>
+            </a>
+
+            <!--Y-->
+
+            <!--Z-->
+            <a href="https://zeitschriftendatenbank.de//startseite/" target="_blank">
+              <li class="item"> Zeitschriftendatenbank (ZDB) <tag-grey>German</tag-grey><p>A database for journals gathered from German and Austrian libraries.</p></li>
+            </a>
+
+
+            <a href="https://www.zvdd.de/startseite/" target="_blank">
+              <li class="item"> Zentrales Verzeichnis digitalisierter Drucke (zvdd) <tag-grey>German</tag-grey><p>A database for all printed and digitally accessible books in Germany from the 15th century till today.</p></li>
+            </a>
+
+            <a href="https://www.kuizhangge.cn/" target="_blank">
+              <li class="item"> 中国古典文献资源导航系统 [Zhongguo gudian wenxian ziyuan daohang xitong] <tag-grey>Simplified Chinese</tag-grey> <p></p></li>
+            </a>
+
+
+
+
+        </ul>
+
+
+
+  <script type="text/javascript" src="popup.js"></script>
+
+</body>
+</html>
