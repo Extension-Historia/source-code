@@ -16,19 +16,20 @@ $(document).ready(function () {
         temp = temp.replace(/[ÔÖŌ]/g, "o");
         temp = temp.replace(/[ÙÛÜŪ]/g, "U");
         temp = temp.replace(/[ÙÛÜŪ]/g, "u");
+        temp = temp.replace(/[-]/g, " ");
 
         return temp;
     }
 
     $("#filter").keyup(function () {
-
+        
         var text = $.trim(noaccent($(this).val())),
             filter = '^(?=.*\\b' + text.split(/\s+/).join('\\b)(?=.*\\b') + ').*$',
             reg = RegExp(filter, 'i'),
             count = 0;
-
+        
         $(".filter li.item").each(function () {
-
+            
             if (!reg.test(noaccent($(this).text()))) {
                 $(this).addClass("cacheItemFilter");
             } else if (!($(this).hasClass("cacheItem"))) {
